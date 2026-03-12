@@ -1,0 +1,26 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="chatop" type="Application" factoryName="Application">
+    <envs>
+      <env name="DB_PASSWORD" value="openClassRoomP3_2025" />
+      <env name="DB_URL" value="jdbc:mysql://localhost:3306/chatop_db?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC" />
+      <env name="DB_USERNAME" value="chatop_userP3" />
+      <env name="JWT_EXPIRATION" value="86400000" />
+      <env name="JWT_SECRET" value="my_super_dev_secret_key_very_long_1234567890" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.openclassroom.chatop.ChatopApplication" />
+    <module name="chatop" />
+    <extension name="net.ashald.envfile">
+      <option name="IS_ENABLED" value="false" />
+      <option name="IS_SUBST" value="false" />
+      <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+      <option name="IS_IGNORE_MISSING_FILES" value="false" />
+      <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+      <ENTRIES>
+        <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+      </ENTRIES>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
